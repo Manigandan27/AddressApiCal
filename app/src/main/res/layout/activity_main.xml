@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextPincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Pincode" />
+
+    <Button
+        android:id="@+id/buttonGetAreaName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPincode"
+        android:layout_marginTop="16dp"
+        android:text="Get Area Name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_areaname"
+        android:text="Chennai"
+        android:layout_below="@+id/buttonGetAreaName"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
